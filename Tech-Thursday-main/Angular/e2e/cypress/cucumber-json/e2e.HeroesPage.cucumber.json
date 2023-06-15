@@ -1,0 +1,152 @@
+[
+  {
+    "description": "This Feature tests heroes scenarios",
+    "keyword": "Feature",
+    "name": "HeroesPage Functionality",
+    "line": 1,
+    "id": "heroespage-functionality",
+    "tags": [],
+    "uri": "HeroesPage.feature",
+    "elements": [
+      {
+        "id": "heroespage-functionality;as-a-toh-user,-i-want-to-remove-a-hero-in-order-to-see-the-hero-list-decrease",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a TOH user, I want to remove a hero in order to see the hero list decrease",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "undefined",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "there is at least one hero in the list",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user clicks on the delete button next to hero \"Bombasto\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the hero \"Bombasto\" is no longer visible in the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "heroespage-functionality;as-a-toh-user,-i-want-to-add-a-hero-in-order-to-see-the-hero-list-increase",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a TOH user, I want to add a hero in order to see the hero list increase",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "a user enters the hero name (\"MrNo\") to be added",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user clicks on add hero",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the hero is visible in the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "heroespage-functionality;as-a-toh-user,-i-want-to-add-a-hero-without-a-name-in-order-to-see-the-hero-list-remain-the-same",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "As a TOH user, I want to add a hero without a name in order to see the hero list remain the same",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the heroes page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "a user leaves the hero name blank",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks on add hero",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the hero is not visible in the list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
